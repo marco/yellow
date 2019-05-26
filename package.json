@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-yellow",
+  "version": "1.0.0",
+  "description": "An Opinionated ESLint Configuration prioritizing Readability, Brevity, and Clarity",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslintrc",
+    "linter",
+    "lint",
+    "style",
+    "opinionated",
+    "yellow",
+    "spaces",
+    "semicolons",
+    "readable",
+    "concise",
+    "clear"
+  ],
+  "author": "Marco Burstein <marco@marco.how>",
+  "license": "MIT",
+  "repository": "skunkmb/yellow",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint-plugin-react": "^7.13.0",
+    "typescript": "^3.4.5",
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
