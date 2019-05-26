@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./readme-logo.png" width="60%" alt="Yellow: An Opinionated ESLint Configuration" />
+    <img src="https://github.com/skunkmb/yellow/raw/master/readme-logo.png" width="60%" alt="Yellow: An Opinionated ESLint Configuration" />
 </div>
 
 Yellow is an opinionated ESLint Configuration prioritizing **readability**,
