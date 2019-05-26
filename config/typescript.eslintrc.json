@@ -1,0 +1,61 @@
+{
+    "extends": ["./main.eslintrc"],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "@typescript-eslint/adjacent-overload-signatures": 2,
+        "@typescript-eslint/array-type": 2,
+        "@typescript-eslint/ban-types": [2, {
+            "types": {
+                "String": {
+                    "message": "Use `string` instead.",
+                    "fixWith": "string"
+                },
+                "Boolean": {
+                    "message": "Use `boolean` instead.",
+                    "fixWith": "boolean"
+                },
+                "Number": {
+                    "message": "Use `number` instead.",
+                    "fixWith": "number"
+                },
+                "Object": {
+                    "message": "Use `object` instead.",
+                    "fixWith": "object"
+                },
+                "Symbol": {
+                    "message": "Use `symbol` instead.",
+                    "fixWith": "symbol"
+                }
+            }
+        }],
+        "@typescript-eslint/explicit-function-return-type": 2,
+        "@typescript-eslint/explicit-member-accessibility": 2,
+        "@typescript-eslint/member-delimiter-style": [2, {
+            "multiline": {
+                "delimiter": "semi",
+                "requireLast": true
+            },
+            "singleline": {
+                "delimiter": "semi",
+                "requireLast": false
+            }
+        }],
+        "@typescript-eslint/no-angle-bracket-type-assertion": 2,
+        "@typescript-eslint/no-empty-interface": 2,
+        "@typescript-eslint/no-explicit-any": 1,
+        "@typescript-eslint/no-extraneous-class": 1,
+        "@typescript-eslint/no-for-in-array": 1,
+        "@typescript-eslint/no-inferrable-types": 2,
+        "@typescript-eslint/no-misused-new": 2,
+        "@typescript-eslint/no-namespace": [2, {
+            "allowDefinitionFiles": true
+        }],
+        "@typescript-eslint/no-object-literal-type-assertion": 2,
+        "@typescript-eslint/no-require-imports": 2,
+        "@typescript-eslint/no-this-alias": 2,
+        "@typescript-eslint/no-triple-slash-reference": 1,
+        "@typescript-eslint/prefer-interface": 1,
+        "@typescript-eslint/type-annotation-spacing": 2
+    }
+}
